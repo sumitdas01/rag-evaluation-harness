@@ -1,0 +1,37 @@
+embedding:
+  model: "all-MiniLM-L6-v2"
+
+chunking:
+  simple:
+    chunk_size: 800
+    chunk_overlap: 100
+  semantic:
+    buffer_size: 1
+    breakpoint_threshold_type: "percentile"
+    breakpoint_threshold_amount: 90
+
+retrieval:
+  top_k: 5
+
+hybrid:
+  dense_k: 10
+  bm25_k: 10
+
+reranking:
+  initial_k: 20
+  final_k: 5
+  model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+evaluation:
+  questions: 50
+  threshold: 0.70
+
+llm:
+  model: "gpt-4o-mini"
+  temperature: 0.0
+
+paths:
+  documents: "data/documents"
+  evaluation_questions: "data/evaluation/questions.json"
+  chroma_db: "chroma"
+  results: "results"

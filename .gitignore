@@ -1,0 +1,80 @@
+# ==============================================================================
+# Python & Bytecode
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Testing & Code Quality
+# ==============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================================================================
+# IDEs & Operating System
+# ==============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# Secrets & Environment Variables (NEVER commit secrets!)
+# ==============================================================================
+.env
+.env.*
+.env.local
+!.env.example
+
+# ==============================================================================
+# Local Vector Database & Large Artifacts
+# ==============================================================================
+chroma/
+*.log
+
+# ==============================================================================
+# Ensure Benchmark Data & Pre-computed Results are Tracked
+# ==============================================================================
+!data/documents/*.md
+!data/documents/*.txt
+!data/evaluation/questions.json
+!results/report.json
+!results/report.csv
+!results/report.md
+!results/evaluation_results.json
+!results/accuracy_comparison.png

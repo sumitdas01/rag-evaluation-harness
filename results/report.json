@@ -1,0 +1,38 @@
+[
+    {
+        "strategy": "hybrid",
+        "Retrieval_Accuracy": 96.0,
+        "Recall_at_K": 90.0,
+        "Precision_at_K": 20.8,
+        "MRR": 90.5,
+        "Answer_Accuracy": 74.0,
+        "Avg_Retrieval_Latency": 0.014537596702575683
+    },
+    {
+        "strategy": "reranking",
+        "Retrieval_Accuracy": 98.0,
+        "Recall_at_K": 95.0,
+        "Precision_at_K": 22.8,
+        "MRR": 97.0,
+        "Answer_Accuracy": 70.0,
+        "Avg_Retrieval_Latency": 0.3654503583908081
+    },
+    {
+        "strategy": "semantic",
+        "Retrieval_Accuracy": 96.0,
+        "Recall_at_K": 50.56666666666666,
+        "Precision_at_K": 27.200000000000003,
+        "MRR": 78.73333333333333,
+        "Answer_Accuracy": 60.0,
+        "Avg_Retrieval_Latency": 0.014742369651794434
+    },
+    {
+        "strategy": "simple",
+        "Retrieval_Accuracy": 98.0,
+        "Recall_at_K": 91.0,
+        "Precision_at_K": 21.200000000000003,
+        "MRR": 89.06666666666666,
+        "Answer_Accuracy": 74.0,
+        "Avg_Retrieval_Latency": 0.017674007415771485
+    }
+]

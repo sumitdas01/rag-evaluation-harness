@@ -1,0 +1,352 @@
+[
+    {
+        "id": "Q001",
+        "question": "What is the maximum monetary penalty that can be imposed under the DPDP Act 2023 for a breach in observing reasonable security safeguards to prevent a personal data breach?",
+        "expected_answer": "Up to ₹250 crore (Two hundred and fifty crore rupees).",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_18"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q002",
+        "question": "Under Section 8(6) of the DPDP Act, whom must a Data Fiduciary notify in the event of a personal data breach, and what is the penalty for failing to do so?",
+        "expected_answer": "The Data Fiduciary must give intimation to the Data Protection Board of India and each affected Data Principal. The penalty for failure to notify is up to ₹200 crore.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_9", "dpdp_act_2023.md_simple_18"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q003",
+        "question": "How does the DPDP Act 2023 define a child, and what consent is required before processing personal data of a child?",
+        "expected_answer": "A child is defined as an individual who has not completed eighteen years of age. Before processing personal data of a child, the Data Fiduciary must obtain verifiable consent from the parent or lawful guardian.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_10"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q004",
+        "question": "What activities are Data Fiduciaries strictly prohibited from undertaking with respect to children's data under Section 9 of the DPDP Act?",
+        "expected_answer": "Data Fiduciaries are strictly prohibited from undertaking tracking or behavioral monitoring of children, targeted advertising directed at children, and processing that is likely to cause any detrimental effect on the well-being of a child.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_10"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q005",
+        "question": "What specific institutional requirements must a Significant Data Fiduciary fulfill under Section 10 of the DPDP Act?",
+        "expected_answer": "A Significant Data Fiduciary must appoint an India-based Data Protection Officer (DPO) reporting to the Board of Directors, appoint an independent data auditor, and conduct periodic Data Protection Impact Assessments (DPIA) and audits.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_11"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q006",
+        "question": "In what languages must a Data Fiduciary give the Data Principal the option to access the notice accompanying a consent request?",
+        "expected_answer": "The Data Principal must be given the option to access the notice in English or any language specified in the Eighth Schedule to the Constitution of India.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_4"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q007",
+        "question": "What are the essential legal characteristics of valid consent under Section 6(1) of the DPDP Act 2023?",
+        "expected_answer": "Consent must be free, specific, informed, unconditional, and unambiguous with a clear affirmative action.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_5"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q008",
+        "question": "Can a Data Principal withdraw consent after granting it, and does the withdrawal affect prior lawful processing under the DPDP Act?",
+        "expected_answer": "Yes, a Data Principal has the right to withdraw consent at any time with comparable ease, but withdrawal does not affect the legality of processing carried out based on consent before its withdrawal.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_5"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q009",
+        "question": "Name three recognized legitimate uses under Section 7 of the DPDP Act where personal data may be processed without explicit consent.",
+        "expected_answer": "Voluntary provision of data for a specified purpose, State provision of subsidies/licenses/benefits, compliance with court orders/judgments, medical emergencies, public health crises/epidemics, disaster relief, or employment purposes.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_6", "dpdp_act_2023.md_simple_7"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q010",
+        "question": "What is the model of cross-border personal data transfer established under Section 16 of the DPDP Act?",
+        "expected_answer": "A blacklisting or negative-list approach where the Central Government may notify restricted countries or territories to which transfer is prohibited. Other laws with stricter transfer restrictions prevail.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_14", "dpdp_act_2023.md_simple_15"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q011",
+        "question": "What is the maximum penalty for breach of duties by a Data Principal under Section 15 of the DPDP Act?",
+        "expected_answer": "Up to ₹10,000 (Ten thousand rupees).",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_18", "dpdp_act_2023.md_simple_19"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q012",
+        "question": "Under Section 14 of the DPDP Act, what is the Right to Nominate?",
+        "expected_answer": "A Data Principal has the right to nominate any other individual to exercise her rights under the Act in the event of her death or incapacity.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_13", "dpdp_act_2023.md_simple_14"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q013",
+        "question": "What condition must a Data Principal satisfy before approaching the Data Protection Board of India with a grievance under Section 13?",
+        "expected_answer": "The Data Principal must first exhaust internal grievance redressal mechanisms provided by the Data Fiduciary or Consent Manager.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_13"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q014",
+        "question": "Under Section 17 of the DPDP Act, which entities or circumstances are exempt from provisions relating to notice, data erasure, and Significant Data Fiduciary obligations?",
+        "expected_answer": "Startups and certain notified classes of Data Fiduciaries, as well as processing for enforcing legal rights, crime investigation/prosecution, judicial proceedings, and processing of non-resident data under foreign contract.",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_15", "dpdp_act_2023.md_simple_16"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q015",
+        "question": "What is the statutory penalty under the DPDP Act Schedule for breach of additional obligations relating to Significant Data Fiduciaries under Section 10?",
+        "expected_answer": "Up to ₹150 crore (One hundred and fifty crore rupees).",
+        "relevant_chunk_ids": ["dpdp_act_2023.md_simple_19"],
+        "source_documents": ["dpdp_act_2023.md"]
+    },
+    {
+        "id": "Q016",
+        "question": "According to the RBI Guidelines on Digital Lending, how must loan disbursements and loan repayments be routed?",
+        "expected_answer": "Disbursements must execute directly into the borrower's verified bank account and repayments directly into the Regulated Entity's account, without passing through any pool account or third-party/LSP account.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_34"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q017",
+        "question": "Can a Lending Service Provider (LSP) collect fees or charges directly from the digital loan borrower?",
+        "expected_answer": "No, under no circumstance shall any fee or commission payable to an LSP be collected directly from the borrower. Any fee payable to the LSP must be paid directly by the Regulated Entity.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_35"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q018",
+        "question": "What is the mandatory cooling-off or look-up period duration prescribed by RBI for digital loans?",
+        "expected_answer": "Not less than three (3) days for loans having a tenor of seven days or more, and not less than one (1) day for loans having a tenor of less than seven days.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_37"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q019",
+        "question": "What financial obligations must a borrower fulfill to exit a digital loan during the cooling-off period under RBI guidelines?",
+        "expected_answer": "The borrower must repay the principal amount along with proportionate APR accrued for the elapsed period, without any prepayment or foreclosure penalties.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_37"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q020",
+        "question": "What is the Key Fact Statement (KFS) in RBI digital lending regulations, and what core elements must it disclose?",
+        "expected_answer": "A standardized summary provided before loan execution disclosing loan amount, tenor, repayment schedule, Annual Percentage Rate (APR), upfront and penal fees, cooling-off period, and grievance redressal officer details.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_31", "rbi_digital_lending_guidelines.md_simple_36"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q021",
+        "question": "How is Annual Percentage Rate (APR) defined and computed in RBI digital lending guidelines?",
+        "expected_answer": "APR is the effective annualized rate charged to the borrower, computed using the internal rate of return formula and incorporating the base interest rate plus all associated fees, processing charges, administrative costs, and taxes.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_32", "rbi_digital_lending_guidelines.md_simple_36"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q022",
+        "question": "Can a digital lender automatically increase a borrower's credit limit without consent?",
+        "expected_answer": "No, automatic credit limit increase without explicit, recorded consent of the borrower is strictly prohibited. Enhancement requires fresh credit assessment and verifiable consent.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_38"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q023",
+        "question": "Which mobile device resources are Digital Lending Apps (DLAs) and LSPs strictly prohibited from accessing under RBI rules?",
+        "expected_answer": "Contact lists/address books, call and telephone logs, SMS message contents, file storage/photos/videos/media files, and biometric data of any kind.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_39", "rbi_digital_lending_guidelines.md_simple_40"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q024",
+        "question": "Under what circumstance may a Digital Lending App request access to a mobile phone's camera, microphone, or location?",
+        "expected_answer": "Only for one-time access solely for onboarding and Video Customer Identification Process (V-CIP) / KYC, subject to explicit consent.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_40"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q025",
+        "question": "Where must data collected by Regulated Entities, DLAs, and LSPs in digital lending transactions be stored physically?",
+        "expected_answer": "All data must be stored exclusively in servers physically located within the territorial boundaries of India.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_41"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q026",
+        "question": "Are Regulated Entities, DLAs, or LSPs permitted to store biometric data of digital lending borrowers?",
+        "expected_answer": "No, biometric data storage on any systems or servers of the RE, DLA, or LSP is strictly prohibited under any circumstances.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_40", "rbi_digital_lending_guidelines.md_simple_41"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q027",
+        "question": "What calling hours are recovery agents permitted to contact borrowers under the RBI digital lending code of conduct?",
+        "expected_answer": "Recovery agents are strictly prohibited from contacting borrowers before 08:00 AM or after 07:00 PM.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_42"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q028",
+        "question": "Can debt recovery agents contact individuals listed in the borrower's mobile phone contact list?",
+        "expected_answer": "No, recovery agents are strictly prohibited from contacting persons who are not co-borrowers or guarantors.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_42"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q029",
+        "question": "What is the statutory timeline within which customer complaints must be resolved by Regulated Entities and LSPs under RBI digital lending rules?",
+        "expected_answer": "Complaints must be resolved within a maximum statutory period of thirty (30) days.",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_43"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q030",
+        "question": "If a digital lending complaint is unresolved after 30 days, where can the borrower escalate their grievance?",
+        "expected_answer": "The borrower has the right to escalate the grievance to the Reserve Bank - Integrated Ombudsman Scheme (RB-IOS).",
+        "relevant_chunk_ids": ["rbi_digital_lending_guidelines.md_simple_43"],
+        "source_documents": ["rbi_digital_lending_guidelines.md"]
+    },
+    {
+        "id": "Q031",
+        "question": "Who holds ultimate responsibility for IT governance and cyber security resilience in a Regulated Entity according to RBI Master Directions?",
+        "expected_answer": "The Board of Directors of the Regulated Entity.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_21"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q032",
+        "question": "To whom must the Chief Information Security Officer (CISO) report to prevent conflicts of interest under RBI cyber security directions?",
+        "expected_answer": "The CISO must report directly to the Chief Executive Officer (MD & CEO) or the Audit Committee of the Board (ACB), and shall NOT report to the CIO or CTO.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_23"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q033",
+        "question": "What is the mandatory reporting timeline for a bank to report a cyber security incident to RBI and CERT-In?",
+        "expected_answer": "The initial notification must be submitted within six (6) hours of detection of the incident.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_25"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q034",
+        "question": "Within how many calendar days must a bank submit a comprehensive Root Cause Analysis (RCA) report following a cyber incident to RBI?",
+        "expected_answer": "Within twenty-one (21) calendar days of the incident.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_25"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q035",
+        "question": "How frequently must Regulated Entities conduct Vulnerability Assessment and Penetration Testing (VAPT) on internet-facing systems under RBI directives?",
+        "expected_answer": "At least once every six (6) months for internet-facing systems.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_26"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q036",
+        "question": "Who must conduct penetration testing on banking systems under RBI cyber security rules?",
+        "expected_answer": "Independent, CERT-In empanelled cyber security audit organizations.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_26"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q037",
+        "question": "What is the maximum timeline allowed for remediation of critical and high-risk vulnerabilities under RBI guidelines?",
+        "expected_answer": "Critical and high-risk vulnerabilities must be remediated within thirty (30) days of discovery, validated through re-testing.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_26"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q038",
+        "question": "What authentication standard is mandatory for administrative accounts, database roots, and remote VPN sessions in banks?",
+        "expected_answer": "Multi-Factor Authentication (MFA).",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_27"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q039",
+        "question": "What core banking functions are strictly prohibited from being outsourced to third-party IT vendors under RBI directions?",
+        "expected_answer": "Core banking systems and core decision-making functions regarding credit assessment and risk management.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_28"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q040",
+        "question": "Within what timeframe must an IT vendor notify the bank if the vendor experiences a security breach under RBI vendor risk rules?",
+        "expected_answer": "Within two (2) hours of occurrence.",
+        "relevant_chunk_ids": ["rbi_cyber_security_framework.md_simple_29"],
+        "source_documents": ["rbi_cyber_security_framework.md"]
+    },
+    {
+        "id": "Q041",
+        "question": "Which listed entities in India are mandatorily required by SEBI to submit a Business Responsibility and Sustainability Report (BRSR)?",
+        "expected_answer": "The top 1,000 listed entities by market capitalization on BSE and NSE.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_45"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q042",
+        "question": "What are the three main sections of a SEBI BRSR report, and what do they cover?",
+        "expected_answer": "Section A: General Disclosures (entity details/workforce), Section B: Management and Process Disclosures (policies/governance), and Section C: Principle-wise Performance Disclosures (Nine Principles of NGRBC).",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_46"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q043",
+        "question": "What threshold of regulatory fines and penalties must be disclosed by companies under Principle 1 of SEBI BRSR?",
+        "expected_answer": "Monetary fines, penalties, settlements, and non-monetary enforcement actions imposed by regulators exceeding ₹1 lakh.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_47"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q044",
+        "question": "What employee insurance coverage disclosures are required under Principle 3 of BRSR?",
+        "expected_answer": "The percentage of permanent and non-permanent employees covered by health insurance, accident insurance, and maternity/paternity benefits, with listed entities aiming for 100% coverage.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_48"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q045",
+        "question": "What metric is used to disclose direct greenhouse gas emissions from company-owned or controlled sources under Principle 6 of BRSR?",
+        "expected_answer": "Scope 1 GHG emissions measured in metric tonnes of CO2 equivalent.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_50"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q046",
+        "question": "What is the difference between Scope 1 and Scope 2 emissions under SEBI BRSR Principle 6 disclosures?",
+        "expected_answer": "Scope 1 emissions are direct emissions from company-owned or controlled sources, while Scope 2 emissions are indirect emissions from the generation of purchased electricity, steam, heating, and cooling.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_50"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q047",
+        "question": "What percentage of average net profits must eligible companies spend on CSR under Section 135 of the Companies Act as reported in BRSR Principle 8?",
+        "expected_answer": "At least two percent (2%) of average net profits of the preceding three financial years.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_52"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q048",
+        "question": "For which CSR projects is an independent Social Impact Assessment (SIA) mandatory under BRSR Principle 8?",
+        "expected_answer": "Mandatory for CSR projects with outlays exceeding ₹1 crore, conducted through accredited external agencies.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_52"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q049",
+        "question": "What is BRSR Core, and what assurance level is mandated by SEBI for top listed entities?",
+        "expected_answer": "BRSR Core is a subset of key ESG performance indicators for which mandatory independent reasonable assurance by an independent assurance provider is prescribed.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_45", "sebi_brsr_framework.md_simple_54"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    },
+    {
+        "id": "Q050",
+        "question": "What coverage percentage of purchases or sales is required when extending BRSR Core disclosures to value chain partners?",
+        "expected_answer": "Value chain disclosures must encompass top upstream suppliers and downstream customers comprising at least 75% of purchases or sales by value.",
+        "relevant_chunk_ids": ["sebi_brsr_framework.md_simple_55"],
+        "source_documents": ["sebi_brsr_framework.md"]
+    }
+]
