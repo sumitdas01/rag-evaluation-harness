@@ -9,8 +9,6 @@
 > **Production-grade automated evaluation framework and regression prevention pipeline for enterprise Retrieval-Augmented Generation (RAG).**  
 > Benchmarks multiple retrieval strategies across 50 statutory ground-truth questions (200 evaluations) on high-stakes Indian statutory and regulatory documentation (DPDP Act 2023, RBI Guidelines, SEBI BRSR).
 
-📖 **[Read the Full System Architecture, Workflow Execution & Interview Defense Guide →](ARCHITECTURE_AND_INTERVIEW_GUIDE.md)**
-
 ---
 
 ## 📌 Executive Summary
@@ -263,7 +261,7 @@ rag-evaluation-harness/
 
 - **Domain Relevance**: Tested against real-world statutory texts (DPDP Act, RBI Directions, SEBI Circulars) where precision, factual grounding, and auditability are non-negotiable.
 - **Zero Hallucination Guardrails**: Emphasizes retrieval precision to prevent AI liability in regulated compliance domains.
-- **Enterprise CI/CD Integration**: Proves you know how to treat GenAI as production software with regression testing, automated quality gates, and trade-off analysis.
+- **Enterprise CI/CD Integration**: justify how to treat GenAI as production software with regression testing, automated quality gates, and trade-off analysis.
 
 ---
 
